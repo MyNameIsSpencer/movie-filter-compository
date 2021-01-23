@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="form.js"></script>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <div class="grid-container">
+        <div id="left-col" class="item1">
+            <img id="logo-png" src="assets/books.jpg">
+        </div>
+        <div id="right-col" class="item2">
+            <h1>It's going down for real.</h1>
+            <p class="lorem-ipsum">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis enim lobortis scelerisque fermentum dui faucibus. Vel orci porta non pulvinar neque. Turpis nunc eget lorem dolor. Tortor consequat id porta nibh venenatis. Lectus magna fringilla urna porttitor rhoncus dolor purus non enim.
+            </p>
+            <h2>
+                About you
+            </h2>
+            <form>
+                <div class="flex-container">
+                    <div>
+                        <h4 class="input-label-class name-label">First Name</h4>
+                        <input name="first-name" type="text" placeholder="Jane">
+                    </div>
+                    <div>
+                        <h4 class="input-label-class name-label">Last Name</h4>
+                        <input name="last-name" type="text" placeholder="Doe">
+                    </div>
+                </div>
+                <h4 class="input-label-class">Type of Book Choice</h4>
+                <select #id="select-dropdown" name="book-type">
+                    <option value="hardcover">Hardcover</option>
+                    <option value="softcover">Softcover</option>
+                    <option value="digital">Digital</option>
+                    <option value="parrot">Parrot</option>  
+                </select>
+                <h4 class="input-label-class">Phone Number</h4>
+                <input type="number"
+                    id="phone-input"
+                    oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
+                    maxlength="10"
+                    name="phone-number"
+                    placeholder="555-555-5555" maxlength="10">
+                <div>
+                    <div class="button-class">
+                        Send
+                    </div>                
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
+
+
