@@ -1,0 +1,37 @@
+.empty-image-box {
+    width: 154px;
+    height: 236px;
+    border: 2px solid black;
+}
+
+.film-container {
+    display: inline-block;
+    width: 175px;
+    vertical-align: top;
+}
+
+.title-container {
+    height: 100px;
+}
+
+.title-class {
+    margin: 0;
+    text-align: left;
+    padding-left: 5px;
+}
+
+.image-class {
+    height: 240px;
+    vertical-align: top;
+}
+
+.image-class img {
+    vertical-align: top;
+}
+
+
+.movie-details {
+    padding: 10px;
+    height: 60px;
+    text-align: left;
+}
