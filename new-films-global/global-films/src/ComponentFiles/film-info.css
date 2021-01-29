@@ -8,11 +8,12 @@
     top: 0;
     background-color: rgba(0,0,0,0.5);
     z-index: 10;
-    cursor: pointer;
 }
 
 .info-box-container {
     width: calc(100vw - 40px);
+    max-height: 80vh;
+    overflow-y:auto;
     margin-top: 100px;
     background-color: white;
     border-radius: 6px;
@@ -26,6 +27,7 @@
     margin-left: 20px;
     margin-top: 20px;
     padding-right: 20px;
+    font-size: 19px;
 }
 
 .detail-label {
@@ -38,18 +40,20 @@
 }
 
 .close-button {
+    margin-top: 20px;
     border-radius: 4px;
     border: 0.2vw solid slategray;
-    background-color: rgb(153, 153, 153);;
+    background-color: rgb(255, 25, 41);
     width: 11.3vw;
     height: 60px;
     line-height: 60px;
     color: white;
-    font-size: 24px;
+    font-size: 19px;
     cursor: pointer;
     text-align: center;
 }
 
-.cast-link {
-    color: rgb(255, 25, 41);
+.cast-member {
+    cursor: pointer;
+    margin-top: 10px;
 }
